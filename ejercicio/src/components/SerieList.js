@@ -57,7 +57,7 @@ const SerieList = (props) => {
             </tbody>
           </table>
     <div>
-      <Grafica info={data}/>
+      <Grafica info={props.url}/>
     </div>
     </Container>
   );
